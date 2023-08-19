@@ -1,5 +1,7 @@
 Tasks
-0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
+
+0.
+ I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
 mandatory
 Write a function that produces output according to a format.
 
@@ -19,7 +21,8 @@ Repo:
 
 GitHub repository: printf
    
-1. Education is when you read the fine print. Experience is what you get if you don't
+1.
+ Education is when you read the fine print. Experience is what you get if you don't
 mandatory
 Handle the following conversion specifiers:
 
@@ -33,7 +36,8 @@ Repo:
 
 GitHub repository: printf
    
-2. With a face like mine, I do better in print
+2.
+ With a face like mine, I do better in print
 #advanced
 Handle the following custom conversion specifiers:
 
@@ -51,7 +55,7 @@ int main(void)
     _printf("%b\n", 98);
     return (0);
 }
-alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c
+alex@ubuntu:~/c/printf$ 'gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c'
 alex@ubuntu:~/c/printf$ ./a.out
 1100010
 alex@ubuntu:~/c/printf$
@@ -102,7 +106,7 @@ int main(void)
     _printf("%S\n", "Best\nSchool");
     return (0);
 }
-alex@ubuntu:~/c/printf$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c
+alex@ubuntu:~/c/printf$ 'gcc -Wall -Wextra -Werror -pedantic -std=gnu89 main.c'
 alex@ubuntu:~/c/printf$ ./a.out
 Best\x0ASchool
 alex@ubuntu:~/c/printf$
