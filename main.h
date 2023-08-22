@@ -14,12 +14,17 @@
  * @plus: flag for the '+' character
  * @space: flag for the ' ' character
  * @hash: flag for the '#' character
+ * @minus: flag for the '-' character
+ * @l: flag for the 'l' character
  */
 typedef struct flags
 {
 	int plus;
 	int space;
 	int hash;
+	int minus;
+	int length_l;
+	int length_h;
 } flags_t;
 
 /**
@@ -76,5 +81,8 @@ int print_address(va_list l, flags_t *f);
 
 /* print_percent */
 int print_percent(va_list l, flags_t *f);
+
+/*get_length */
+int get_length(const char *format, size_t pos, flags_t *f);
 
 #endif
